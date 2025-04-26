@@ -1,0 +1,77 @@
+2025-04-25 21:57:07 log_error called: [ERROR] OpenAI API error: {
+    "error": {
+        "message": "Incorrect API key provided: sk-2proj*********************************************************************************************************************************************************mT8A. You can find your API key at https://platform.openai.com/account/api-keys.",
+        "type": "invalid_request_error",
+        "param": null,
+        "code": "invalid_api_key"
+    }
+}
+ |  (/www/wwwroot/2inf0.ru/php/chatgpt/server/api/chat.php:125)
+2025-04-25 21:57:07 db.php required OK
+2025-04-25 21:57:07 log_error called: [ERROR] Undefined variable $db (/www/wwwroot/2inf0.ru/php/chatgpt/server/api/log.php:12)
+2025-04-25 21:57:07 db.php required OK
+2025-04-25 21:57:07 log_error called: [CRITICAL] Call to a member function prepare() on null (/www/wwwroot/2inf0.ru/php/chatgpt/server/api/log.php:12)
+2025-04-25 21:57:07 db.php required OK
+2025-04-25 21:57:07 log_error called: [ERROR] Undefined variable $db (/www/wwwroot/2inf0.ru/php/chatgpt/server/api/log.php:12)
+2025-04-25 21:57:07 db.php required OK
+2025-04-25 21:57:07 log_error called: [CRITICAL] SHUTDOWN: Uncaught Error: Call to a member function prepare() on null in /www/wwwroot/2inf0.ru/php/chatgpt/server/api/log.php:12
+Stack trace:
+#0 /www/wwwroot/2inf0.ru/php/chatgpt/server/api/log.php(28): log_error()
+#1 /www/wwwroot/2inf0.ru/php/chatgpt/server/api/log.php(32): log_message()
+#2 /www/wwwroot/2inf0.ru/php/chatgpt/server/api/log.php(12): {closure}()
+#3 /www/wwwroot/2inf0.ru/php/chatgpt/server/api/log.php(28): log_error()
+#4 /www/wwwroot/2inf0.ru/php/chatgpt/server/api/log.php(37): log_message()
+#5 [internal function]: {closure}()
+#6 {main}
+  thrown (/www/wwwroot/2inf0.ru/php/chatgpt/server/api/log.php:12)
+2025-04-25 21:57:07 db.php required OK
+2025-04-25 21:57:07 log_error called: [ERROR] Undefined variable $db (/www/wwwroot/2inf0.ru/php/chatgpt/server/api/log.php:12)
+2025-04-25 21:57:07 db.php required OK
+2025-04-25 21:59:43 log_error called: [ERROR] OpenAI API error: {
+    "error": {
+        "message": "Incorrect API key provided: sk-2proj*********************************************************************************************************************************************************mT8A. You can find your API key at https://platform.openai.com/account/api-keys.",
+        "type": "invalid_request_error",
+        "param": null,
+        "code": "invalid_api_key"
+    }
+}
+ |  (/www/wwwroot/2inf0.ru/php/chatgpt/server/api/chat.php:125)
+2025-04-25 21:59:43 db.php required OK
+2025-04-25 21:59:43 DB write OK
+2025-04-25 23:25:26 log_error called: [ERROR] OpenAI API error:  | Proxy CONNECT aborted (/www/wwwroot/2inf0.ru/php/chatgpt/server/api/chat.php:125)
+2025-04-25 23:25:26 db.php required OK
+2025-04-25 23:25:26 DB write OK
+2025-04-25 23:33:35 log_error called: [ERROR] OpenAI API error:  | Proxy CONNECT aborted (/www/wwwroot/2inf0.ru/php/chatgpt/server/api/chat.php:126)
+2025-04-25 23:33:35 log_error called: [ERROR] Undefined variable $db (/www/wwwroot/2inf0.ru/php/chatgpt/server/api/log.php:10)
+2025-04-25 23:33:35 log_error called: [CRITICAL] Call to a member function prepare() on null (/www/wwwroot/2inf0.ru/php/chatgpt/server/api/log.php:10)
+2025-04-25 23:33:35 log_error called: [ERROR] Undefined variable $db (/www/wwwroot/2inf0.ru/php/chatgpt/server/api/log.php:10)
+2025-04-25 23:33:35 log_error called: [CRITICAL] SHUTDOWN: Uncaught Error: Call to a member function prepare() on null in /www/wwwroot/2inf0.ru/php/chatgpt/server/api/log.php:10
+Stack trace:
+#0 /www/wwwroot/2inf0.ru/php/chatgpt/server/api/log.php(26): log_error()
+#1 /www/wwwroot/2inf0.ru/php/chatgpt/server/api/log.php(30): log_message()
+#2 /www/wwwroot/2inf0.ru/php/chatgpt/server/api/log.php(10): {closure}()
+#3 /www/wwwroot/2inf0.ru/php/chatgpt/server/api/log.php(26): log_error()
+#4 /www/wwwroot/2inf0.ru/php/chatgpt/server/api/log.php(35): log_message()
+#5 [internal function]: {closure}()
+#6 {main}
+  thrown (/www/wwwroot/2inf0.ru/php/chatgpt/server/api/log.php:10)
+2025-04-25 23:33:35 log_error called: [ERROR] Undefined variable $db (/www/wwwroot/2inf0.ru/php/chatgpt/server/api/log.php:10)
+2025-04-25 23:33:46 log_error called: [ERROR] OpenAI API error:  | Proxy CONNECT aborted (/www/wwwroot/2inf0.ru/php/chatgpt/server/api/chat.php:126)
+2025-04-25 23:33:46 log_error called: [ERROR] Undefined variable $db (/www/wwwroot/2inf0.ru/php/chatgpt/server/api/log.php:10)
+2025-04-25 23:33:46 log_error called: [CRITICAL] Call to a member function prepare() on null (/www/wwwroot/2inf0.ru/php/chatgpt/server/api/log.php:10)
+2025-04-25 23:33:46 log_error called: [ERROR] Undefined variable $db (/www/wwwroot/2inf0.ru/php/chatgpt/server/api/log.php:10)
+2025-04-25 23:33:46 log_error called: [CRITICAL] SHUTDOWN: Uncaught Error: Call to a member function prepare() on null in /www/wwwroot/2inf0.ru/php/chatgpt/server/api/log.php:10
+Stack trace:
+#0 /www/wwwroot/2inf0.ru/php/chatgpt/server/api/log.php(26): log_error()
+#1 /www/wwwroot/2inf0.ru/php/chatgpt/server/api/log.php(30): log_message()
+#2 /www/wwwroot/2inf0.ru/php/chatgpt/server/api/log.php(10): {closure}()
+#3 /www/wwwroot/2inf0.ru/php/chatgpt/server/api/log.php(26): log_error()
+#4 /www/wwwroot/2inf0.ru/php/chatgpt/server/api/log.php(35): log_message()
+#5 [internal function]: {closure}()
+#6 {main}
+  thrown (/www/wwwroot/2inf0.ru/php/chatgpt/server/api/log.php:10)
+2025-04-25 23:33:46 log_error called: [ERROR] Undefined variable $db (/www/wwwroot/2inf0.ru/php/chatgpt/server/api/log.php:10)
+2025-04-25 23:37:30 log_error called: [ERROR] OpenAI API error:  | Proxy CONNECT aborted (/www/wwwroot/2inf0.ru/php/chatgpt/server/api/chat.php:126)
+2025-04-25 23:37:30 DB write OK
+2025-04-25 23:42:59 log_error called: [ERROR] OpenAI API error:  | Proxy CONNECT aborted (/www/wwwroot/2inf0.ru/php/chatgpt/server/api/chat.php:126)
+2025-04-25 23:42:59 DB write OK

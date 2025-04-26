@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <title>ChatGPT Вход</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="wrapper">
+    <div id="userInfo" style="display: none; text-align: center;">
+      <p id="userEmail" style="margin-bottom: 10px;"></p>
+      <button id="startChatBtn">💬 Начать чат</button>
+      <button id="logoutBtn" class="secondary">🚪 Выйти</button>
+      <hr style="margin: 15px 0;" />
+    </div>
+
+    <div id="authBlock">
+      <h2>🔐 Вход</h2>
+      <input type="email" id="email" placeholder="Email" />
+      <input type="password" id="password" placeholder="Пароль" />
+      <button id="loginBtn">🔓 Войти</button>
+      <button id="registerBtn" class="secondary">📝 Регистрация</button>
+      <p id="authError" class="error"></p>
+      <input type="text" id="server" placeholder="https://example.com/php/chatgpt/api" />
+    </div>
+
+    <p id="version" style="font-size: 0.9em; color: gray; margin-top: 10px;">
+      Версия: <span id="appVer">...</span>
+    </p>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
