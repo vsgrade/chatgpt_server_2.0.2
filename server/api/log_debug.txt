@@ -1,0 +1,149 @@
+2025-04-25 21:57:07 log_error called: [ERROR] OpenAI API error: {
+    "error": {
+        "message": "Incorrect API key provided: sk-2proj*********************************************************************************************************************************************************mT8A. You can find your API key at https://platform.openai.com/account/api-keys.",
+        "type": "invalid_request_error",
+        "param": null,
+        "code": "invalid_api_key"
+    }
+}
+ |  (/www/wwwroot/2inf0.ru/php/chatgpt/server/api/chat.php:125)
+2025-04-25 21:57:07 db.php required OK
+2025-04-25 21:57:07 log_error called: [ERROR] Undefined variable $db (/www/wwwroot/2inf0.ru/php/chatgpt/server/api/log.php:12)
+2025-04-25 21:57:07 db.php required OK
+2025-04-25 21:57:07 log_error called: [CRITICAL] Call to a member function prepare() on null (/www/wwwroot/2inf0.ru/php/chatgpt/server/api/log.php:12)
+2025-04-25 21:57:07 db.php required OK
+2025-04-25 21:57:07 log_error called: [ERROR] Undefined variable $db (/www/wwwroot/2inf0.ru/php/chatgpt/server/api/log.php:12)
+2025-04-25 21:57:07 db.php required OK
+2025-04-25 21:57:07 log_error called: [CRITICAL] SHUTDOWN: Uncaught Error: Call to a member function prepare() on null in /www/wwwroot/2inf0.ru/php/chatgpt/server/api/log.php:12
+Stack trace:
+#0 /www/wwwroot/2inf0.ru/php/chatgpt/server/api/log.php(28): log_error()
+#1 /www/wwwroot/2inf0.ru/php/chatgpt/server/api/log.php(32): log_message()
+#2 /www/wwwroot/2inf0.ru/php/chatgpt/server/api/log.php(12): {closure}()
+#3 /www/wwwroot/2inf0.ru/php/chatgpt/server/api/log.php(28): log_error()
+#4 /www/wwwroot/2inf0.ru/php/chatgpt/server/api/log.php(37): log_message()
+#5 [internal function]: {closure}()
+#6 {main}
+  thrown (/www/wwwroot/2inf0.ru/php/chatgpt/server/api/log.php:12)
+2025-04-25 21:57:07 db.php required OK
+2025-04-25 21:57:07 log_error called: [ERROR] Undefined variable $db (/www/wwwroot/2inf0.ru/php/chatgpt/server/api/log.php:12)
+2025-04-25 21:57:07 db.php required OK
+2025-04-25 21:59:43 log_error called: [ERROR] OpenAI API error: {
+    "error": {
+        "message": "Incorrect API key provided: sk-2proj*********************************************************************************************************************************************************mT8A. You can find your API key at https://platform.openai.com/account/api-keys.",
+        "type": "invalid_request_error",
+        "param": null,
+        "code": "invalid_api_key"
+    }
+}
+ |  (/www/wwwroot/2inf0.ru/php/chatgpt/server/api/chat.php:125)
+2025-04-25 21:59:43 db.php required OK
+2025-04-25 21:59:43 DB write OK
+2025-04-25 23:25:26 log_error called: [ERROR] OpenAI API error:  | Proxy CONNECT aborted (/www/wwwroot/2inf0.ru/php/chatgpt/server/api/chat.php:125)
+2025-04-25 23:25:26 db.php required OK
+2025-04-25 23:25:26 DB write OK
+2025-04-25 23:33:35 log_error called: [ERROR] OpenAI API error:  | Proxy CONNECT aborted (/www/wwwroot/2inf0.ru/php/chatgpt/server/api/chat.php:126)
+2025-04-25 23:33:35 log_error called: [ERROR] Undefined variable $db (/www/wwwroot/2inf0.ru/php/chatgpt/server/api/log.php:10)
+2025-04-25 23:33:35 log_error called: [CRITICAL] Call to a member function prepare() on null (/www/wwwroot/2inf0.ru/php/chatgpt/server/api/log.php:10)
+2025-04-25 23:33:35 log_error called: [ERROR] Undefined variable $db (/www/wwwroot/2inf0.ru/php/chatgpt/server/api/log.php:10)
+2025-04-25 23:33:35 log_error called: [CRITICAL] SHUTDOWN: Uncaught Error: Call to a member function prepare() on null in /www/wwwroot/2inf0.ru/php/chatgpt/server/api/log.php:10
+Stack trace:
+#0 /www/wwwroot/2inf0.ru/php/chatgpt/server/api/log.php(26): log_error()
+#1 /www/wwwroot/2inf0.ru/php/chatgpt/server/api/log.php(30): log_message()
+#2 /www/wwwroot/2inf0.ru/php/chatgpt/server/api/log.php(10): {closure}()
+#3 /www/wwwroot/2inf0.ru/php/chatgpt/server/api/log.php(26): log_error()
+#4 /www/wwwroot/2inf0.ru/php/chatgpt/server/api/log.php(35): log_message()
+#5 [internal function]: {closure}()
+#6 {main}
+  thrown (/www/wwwroot/2inf0.ru/php/chatgpt/server/api/log.php:10)
+2025-04-25 23:33:35 log_error called: [ERROR] Undefined variable $db (/www/wwwroot/2inf0.ru/php/chatgpt/server/api/log.php:10)
+2025-04-25 23:33:46 log_error called: [ERROR] OpenAI API error:  | Proxy CONNECT aborted (/www/wwwroot/2inf0.ru/php/chatgpt/server/api/chat.php:126)
+2025-04-25 23:33:46 log_error called: [ERROR] Undefined variable $db (/www/wwwroot/2inf0.ru/php/chatgpt/server/api/log.php:10)
+2025-04-25 23:33:46 log_error called: [CRITICAL] Call to a member function prepare() on null (/www/wwwroot/2inf0.ru/php/chatgpt/server/api/log.php:10)
+2025-04-25 23:33:46 log_error called: [ERROR] Undefined variable $db (/www/wwwroot/2inf0.ru/php/chatgpt/server/api/log.php:10)
+2025-04-25 23:33:46 log_error called: [CRITICAL] SHUTDOWN: Uncaught Error: Call to a member function prepare() on null in /www/wwwroot/2inf0.ru/php/chatgpt/server/api/log.php:10
+Stack trace:
+#0 /www/wwwroot/2inf0.ru/php/chatgpt/server/api/log.php(26): log_error()
+#1 /www/wwwroot/2inf0.ru/php/chatgpt/server/api/log.php(30): log_message()
+#2 /www/wwwroot/2inf0.ru/php/chatgpt/server/api/log.php(10): {closure}()
+#3 /www/wwwroot/2inf0.ru/php/chatgpt/server/api/log.php(26): log_error()
+#4 /www/wwwroot/2inf0.ru/php/chatgpt/server/api/log.php(35): log_message()
+#5 [internal function]: {closure}()
+#6 {main}
+  thrown (/www/wwwroot/2inf0.ru/php/chatgpt/server/api/log.php:10)
+2025-04-25 23:33:46 log_error called: [ERROR] Undefined variable $db (/www/wwwroot/2inf0.ru/php/chatgpt/server/api/log.php:10)
+2025-04-25 23:37:30 log_error called: [ERROR] OpenAI API error:  | Proxy CONNECT aborted (/www/wwwroot/2inf0.ru/php/chatgpt/server/api/chat.php:126)
+2025-04-25 23:37:30 DB write OK
+2025-04-25 23:42:59 log_error called: [ERROR] OpenAI API error:  | Proxy CONNECT aborted (/www/wwwroot/2inf0.ru/php/chatgpt/server/api/chat.php:126)
+2025-04-25 23:42:59 DB write OK
+2025-05-01 02:43:04 log_error called: [CRITICAL] SHUTDOWN: session_start(): Ignoring session_start() because a session is already active (/www/wwwroot/appvault.pro/php/br/chatgpt/server/admin/email_settings.php:2)
+2025-05-01 02:43:04 DB write OK
+2025-05-01 02:43:10 log_error called: [CRITICAL] SHUTDOWN: session_start(): Ignoring session_start() because a session is already active (/www/wwwroot/appvault.pro/php/br/chatgpt/server/admin/email_settings.php:2)
+2025-05-01 02:43:10 DB write OK
+2025-05-01 02:43:50 log_error called: [ERROR] require(../vendor/autoload.php): Failed to open stream: No such file or directory (/www/wwwroot/appvault.pro/php/br/chatgpt/server/admin/test_email.php:11)
+2025-05-01 02:43:50 DB write OK
+2025-05-01 02:43:50 log_error called: [CRITICAL] Failed opening required '../vendor/autoload.php' (include_path='.:') (/www/wwwroot/appvault.pro/php/br/chatgpt/server/admin/test_email.php:11)
+2025-05-01 02:43:50 DB write OK
+2025-05-01 02:43:50 log_error called: [CRITICAL] SHUTDOWN: require(../vendor/autoload.php): Failed to open stream: No such file or directory (/www/wwwroot/appvault.pro/php/br/chatgpt/server/admin/test_email.php:11)
+2025-05-01 02:43:50 DB write OK
+2025-05-01 02:44:04 log_error called: [CRITICAL] SHUTDOWN: session_start(): Ignoring session_start() because a session is already active (/www/wwwroot/appvault.pro/php/br/chatgpt/server/admin/email_settings.php:2)
+2025-05-01 02:44:04 DB write OK
+2025-05-01 02:47:49 log_error called: [CRITICAL] SHUTDOWN: session_start(): Ignoring session_start() because a session is already active (/www/wwwroot/appvault.pro/php/br/chatgpt/server/admin/email_settings.php:2)
+2025-05-01 02:47:49 DB write OK
+2025-05-01 02:47:58 log_error called: [CRITICAL] SHUTDOWN: session_start(): Ignoring session_start() because a session is already active (/www/wwwroot/appvault.pro/php/br/chatgpt/server/admin/email_settings.php:2)
+2025-05-01 02:47:58 DB write OK
+2025-05-01 02:48:35 log_error called: [CRITICAL] SHUTDOWN: session_start(): Ignoring session_start() because a session is already active (/www/wwwroot/appvault.pro/php/br/chatgpt/server/admin/email_settings.php:2)
+2025-05-01 02:48:35 DB write OK
+2025-05-01 02:49:16 log_error called: [CRITICAL] SHUTDOWN: session_start(): Ignoring session_start() because a session is already active (/www/wwwroot/appvault.pro/php/br/chatgpt/server/admin/email_settings.php:2)
+2025-05-01 02:49:16 DB write OK
+2025-05-01 02:49:17 log_error called: [CRITICAL] SHUTDOWN: session_start(): Ignoring session_start() because a session is already active (/www/wwwroot/appvault.pro/php/br/chatgpt/server/admin/email_settings.php:2)
+2025-05-01 02:49:17 DB write OK
+2025-05-01 02:49:39 log_error called: [CRITICAL] SHUTDOWN: session_start(): Ignoring session_start() because a session is already active (/www/wwwroot/appvault.pro/php/br/chatgpt/server/admin/email_settings.php:2)
+2025-05-01 02:49:39 DB write OK
+2025-05-01 02:49:41 log_error called: [ERROR] require(../vendor/autoload.php): Failed to open stream: No such file or directory (/www/wwwroot/appvault.pro/php/br/chatgpt/server/admin/send_test_email_ajax.php:14)
+2025-05-01 02:49:41 DB write OK
+2025-05-01 02:49:41 log_error called: [CRITICAL] Failed opening required '../vendor/autoload.php' (include_path='.:') (/www/wwwroot/appvault.pro/php/br/chatgpt/server/admin/send_test_email_ajax.php:14)
+2025-05-01 02:49:41 DB write OK
+2025-05-01 02:49:41 log_error called: [CRITICAL] SHUTDOWN: require(../vendor/autoload.php): Failed to open stream: No such file or directory (/www/wwwroot/appvault.pro/php/br/chatgpt/server/admin/send_test_email_ajax.php:14)
+2025-05-01 02:49:41 DB write OK
+2025-05-01 02:50:25 log_error called: [ERROR] require(../vendor/autoload.php): Failed to open stream: No such file or directory (/www/wwwroot/appvault.pro/php/br/chatgpt/server/admin/send_test_email_ajax.php:14)
+2025-05-01 02:50:25 DB write OK
+2025-05-01 02:50:25 log_error called: [CRITICAL] Failed opening required '../vendor/autoload.php' (include_path='.:') (/www/wwwroot/appvault.pro/php/br/chatgpt/server/admin/send_test_email_ajax.php:14)
+2025-05-01 02:50:25 DB write OK
+2025-05-01 02:50:25 log_error called: [CRITICAL] SHUTDOWN: require(../vendor/autoload.php): Failed to open stream: No such file or directory (/www/wwwroot/appvault.pro/php/br/chatgpt/server/admin/send_test_email_ajax.php:14)
+2025-05-01 02:50:25 DB write OK
+2025-05-01 02:51:36 log_error called: [CRITICAL] SHUTDOWN: session_start(): Ignoring session_start() because a session is already active (/www/wwwroot/appvault.pro/php/br/chatgpt/server/admin/email_settings.php:2)
+2025-05-01 02:51:36 DB write OK
+2025-05-01 02:51:43 log_error called: [ERROR] require(../vendor/autoload.php): Failed to open stream: No such file or directory (/www/wwwroot/appvault.pro/php/br/chatgpt/server/admin/send_test_email_ajax.php:14)
+2025-05-01 02:51:43 DB write OK
+2025-05-01 02:51:43 log_error called: [CRITICAL] Failed opening required '../vendor/autoload.php' (include_path='.:') (/www/wwwroot/appvault.pro/php/br/chatgpt/server/admin/send_test_email_ajax.php:14)
+2025-05-01 02:51:43 DB write OK
+2025-05-01 02:51:43 log_error called: [CRITICAL] SHUTDOWN: require(../vendor/autoload.php): Failed to open stream: No such file or directory (/www/wwwroot/appvault.pro/php/br/chatgpt/server/admin/send_test_email_ajax.php:14)
+2025-05-01 02:51:43 DB write OK
+2025-05-01 02:55:51 log_error called: [CRITICAL] SHUTDOWN: session_start(): Ignoring session_start() because a session is already active (/www/wwwroot/appvault.pro/php/br/chatgpt/server/admin/email_settings.php:2)
+2025-05-01 02:55:51 DB write OK
+2025-05-01 02:55:58 log_error called: [WARNING] SMTP password is not provided (form/DB), but auth is enabled. (/www/wwwroot/appvault.pro/php/br/chatgpt/server/admin/send_test_email_ajax.php:100)
+2025-05-01 02:55:58 DB write OK
+2025-05-01 02:56:26 log_error called: [CRITICAL] SHUTDOWN: session_start(): Ignoring session_start() because a session is already active (/www/wwwroot/appvault.pro/php/br/chatgpt/server/admin/email_settings.php:2)
+2025-05-01 02:56:26 DB write OK
+2025-05-01 02:56:29 log_error called: [INFO] Тестовое письмо успешно отправлено на адрес sgrade@mail.ru с настройками: Host=smtp.mail.ru, Port=465, Auth=true, User=chatgpt@appvault.pro, Secure=ssl (/www/wwwroot/appvault.pro/php/br/chatgpt/server/admin/send_test_email_ajax.php:185)
+2025-05-01 02:56:29 DB write OK
+2025-05-01 03:00:47 log_error called: [CRITICAL] SHUTDOWN: session_start(): Ignoring session_start() because a session is already active (/www/wwwroot/appvault.pro/php/br/chatgpt/server/admin/email_settings.php:2)
+2025-05-01 03:00:47 DB write OK
+2025-05-01 03:04:39 log_error called: [CRITICAL] SHUTDOWN: session_start(): Ignoring session_start() because a session is already active (/www/wwwroot/appvault.pro/php/br/chatgpt/server/admin/email_settings.php:2)
+2025-05-01 03:04:39 DB write OK
+2025-05-01 03:04:44 log_error called: [ERROR] Ошибка при отправке тестового письма: SMTP Error: The following recipients failed: sgrade@mail.ru: NEOBHODIM parol prilozheniya https://help.mail.ru/mail/security/protection/external / Application password is REQUIRED
+ | Exception: SMTP Error: The following recipients failed: sgrade@mail.ru: NEOBHODIM parol prilozheniya https://help.mail.ru/mail/security/protection/external / Application password is REQUIRED
+ (/www/wwwroot/appvault.pro/php/br/chatgpt/server/admin/send_test_email_ajax.php:191)
+2025-05-01 03:04:44 DB write OK
+2025-05-01 03:04:51 log_error called: [INFO] Тестовое письмо успешно отправлено на адрес sgrade@mail.ru с настройками: Host=smtp.mail.ru, Port=465, Auth=true, User=chatgpt@appvault.pro, Secure=ssl (/www/wwwroot/appvault.pro/php/br/chatgpt/server/admin/send_test_email_ajax.php:185)
+2025-05-01 03:04:51 DB write OK
+2025-05-01 03:04:53 log_error called: [CRITICAL] SHUTDOWN: session_start(): Ignoring session_start() because a session is already active (/www/wwwroot/appvault.pro/php/br/chatgpt/server/admin/email_settings.php:2)
+2025-05-01 03:04:53 DB write OK
+2025-05-01 03:04:56 log_error called: [CRITICAL] SHUTDOWN: session_start(): Ignoring session_start() because a session is already active (/www/wwwroot/appvault.pro/php/br/chatgpt/server/admin/email_settings.php:2)
+2025-05-01 03:04:56 DB write OK
+2025-05-01 03:04:59 log_error called: [CRITICAL] SHUTDOWN: session_start(): Ignoring session_start() because a session is already active (/www/wwwroot/appvault.pro/php/br/chatgpt/server/admin/email_settings.php:2)
+2025-05-01 03:04:59 DB write OK
+2025-05-01 03:25:54 log_error called: [CRITICAL] SHUTDOWN: session_start(): Ignoring session_start() because a session is already active (/www/wwwroot/appvault.pro/php/br/chatgpt/server/admin/email_settings.php:2)
+2025-05-01 03:25:54 DB write OK
+2025-05-01 03:25:55 log_error called: [CRITICAL] SHUTDOWN: session_start(): Ignoring session_start() because a session is already active (/www/wwwroot/appvault.pro/php/br/chatgpt/server/admin/email_settings.php:2)
+2025-05-01 03:25:55 DB write OK
